@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/bus_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/custom_email_icon.xml" value="0.1945" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/custom_lock_icon.xml" value="0.1945" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/custominput.xml" value="0.1945" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/driver_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/email.xml" value="0.1945" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/homepagebutton.xml" value="0.1" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1945" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/lock.xml" value="0.1945" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/logout_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/rounded_button.xml" value="0.1945" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/students_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_admin_forgot_password.xml" value="0.18" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_admin_homepage.xml" value="0.25" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_admin_registration.xml" value="0.25" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
