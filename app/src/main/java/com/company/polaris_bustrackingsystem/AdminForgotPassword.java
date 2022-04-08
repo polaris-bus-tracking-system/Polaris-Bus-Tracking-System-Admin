@@ -1,6 +1,7 @@
 package com.company.polaris_bustrackingsystem;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
@@ -29,6 +30,8 @@ public class AdminForgotPassword extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_forgot_password);
         getWindow().setStatusBarColor(ContextCompat.getColor(AdminForgotPassword.this, R.color.black));
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         etEmailFP = findViewById(R.id.etAdminFP);
         buttonResetPassword = findViewById(R.id.buttonResetPassword);

@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.black));
 
+
         etAdminEmailL = findViewById(R.id.editTextAdminEmail);
         etAdminPasswordL = findViewById(R.id.editTextAdminPassword);
         tvRegister = findViewById(R.id.textViewRegister);

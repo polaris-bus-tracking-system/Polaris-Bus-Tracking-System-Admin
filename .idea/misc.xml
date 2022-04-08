@@ -14,11 +14,18 @@
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/lock.xml" value="0.1945" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/logout_icon.xml" value="0.1" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/rounded_button.xml" value="0.1945" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/student_card_icon.xml" value="0.1075" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/student_dialog.xml" value="0.1075" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/student_rounded.xml" value="0.1075" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/students_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_add_student.xml" value="0.22" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_admin_forgot_password.xml" value="0.18" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_admin_homepage.xml" value="0.25" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_admin_registration.xml" value="0.25" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_manage_students.xml" value="0.22" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/student_card.xml" value="0.25" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/student_update_popup.xml" value="0.25" />
       </map>
     </option>
   </component>

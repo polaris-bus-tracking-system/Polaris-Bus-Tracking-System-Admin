@@ -7,10 +7,16 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="POLARIS"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PolarisBusTrackingSystem">
+        <activity
+            android:name=".AddStudent"
+            android:exported="false" />
+        <activity
+            android:name=".ManageStudents"
+            android:exported="false" />
         <activity
             android:name=".AdminForgotPassword"
             android:exported="false" />
