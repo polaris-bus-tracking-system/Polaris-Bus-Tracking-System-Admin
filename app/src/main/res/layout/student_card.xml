@@ -13,23 +13,23 @@
        android:padding="15dp">
 
        <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/ivStudent"
            android:layout_width="80dp"
            android:layout_height="80dp"
            android:src="@drawable/student_card_icon"
-           android:id="@+id/ivStudent"
-           app:civ_border_width="2dp"
-           app:civ_border_color="#36454F"/>
+           app:civ_border_color="#36454F"
+           app:civ_border_width="2dp" />
 
-           <TextView
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:id="@+id/tvStudentName"
-               android:text="Student Name"
-               android:textStyle="bold"
-               android:textSize="25sp"
-               android:textColor="#36454F"
-               android:layout_toRightOf="@+id/ivStudent"
-               android:layout_marginLeft="10dp"/>
+       <TextView
+           android:id="@+id/tvStudentName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_toRightOf="@+id/ivStudent"
+           android:text="Student Name"
+           android:textColor="#36454F"
+           android:textSize="25sp"
+           android:textStyle="bold" />
 
        <TextView
            android:layout_width="match_parent"
@@ -59,7 +59,7 @@
            android:orientation="horizontal"
            android:layout_below="@id/tvStudentBusStop">
 
-           <Button
+           `<Button
                android:id="@+id/btnStudentEdit"
                android:layout_width="173dp"
                android:layout_height="wrap_content"

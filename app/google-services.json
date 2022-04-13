@@ -42,6 +42,43 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90112526503:android:643e19c00d8ae113ad3382",
+        "android_client_info": {
+          "package_name": "com.company.polarisstudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90112526503-madj6v2ac10paqdvcanoi7blc1d2q4l5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.polarisstudent",
+            "certificate_hash": "75b71f93b2b7b8fea6150571a6d05ed365cd24c1"
+          }
+        },
+        {
+          "client_id": "90112526503-29l0aq160vgpaerit828g10i6ll6s4fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1d3TJSRuEQFXg-G1BADfh1FhGTI-IZg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90112526503-29l0aq160vgpaerit828g10i6ll6s4fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

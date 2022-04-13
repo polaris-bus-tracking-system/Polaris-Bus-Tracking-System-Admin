@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/activity_add_student.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/activity_manage_students.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/student_card.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/student_update_popup.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/pbts-admin/app/src/main/res/menu/search.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/bus_icon.xml" value="0.1" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/custom_email_icon.xml" value="0.1945" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/drawable/custom_lock_icon.xml" value="0.1945" />
