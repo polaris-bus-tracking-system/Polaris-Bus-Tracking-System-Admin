@@ -31,6 +31,16 @@
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/activity_manage_students.xml" value="0.22" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/student_card.xml" value="0.25" />
         <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/PolarisBusTrackingSystem/app/src/main/res/layout/student_update_popup.xml" value="0.25" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/pbts-admin/app/src/main/res/drawable/search_icon.xml" value="0.1075" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/pbts-admin/app/src/main/res/drawable/student_card_icon.xml" value="0.2115" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/pbts-admin/app/src/main/res/drawable/students_icon.xml" value="0.1075" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/activity_add_driver.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/activity_add_student.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/activity_manage_drivers.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/activity_manage_students.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/driver_card.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/driver_update_popup.xml" value="0.25" />
+        <entry key="..\:/Users/Kushagra Ahire/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/student_card.xml" value="0.17074275362318841" />
       </map>
     </option>
   </component>

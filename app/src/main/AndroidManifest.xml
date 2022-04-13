@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PolarisBusTrackingSystem">
         <activity
+            android:name=".AddDriver"
+            android:exported="false" />
+        <activity
+            android:name=".ManageDrivers"
+            android:exported="false" />
+        <activity
             android:name=".AddStudent"
             android:exported="false" />
         <activity

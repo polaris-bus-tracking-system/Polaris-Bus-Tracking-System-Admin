@@ -70,6 +70,10 @@ public class AdminHomepage extends AppCompatActivity {
         startActivity(new Intent(AdminHomepage.this,ManageStudents.class));
         });
 
+        manageDrivers.setOnClickListener(view -> {
+            startActivity(new Intent(AdminHomepage.this,ManageDrivers.class));
+        });
+
     }
 
     @Override

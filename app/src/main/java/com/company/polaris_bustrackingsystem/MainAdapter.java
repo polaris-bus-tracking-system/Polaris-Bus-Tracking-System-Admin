@@ -120,10 +120,10 @@ holder.busstop.setText(model.getBusstop());
                                  .child(getRef(position).getKey()).removeValue();
                     }
                 });
-                builder.setNegativeButton("Cancle", new DialogInterface.OnClickListener() {
+                builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                       Toast.makeText(holder.name.getContext(),"Canclled",Toast.LENGTH_SHORT).show();
+                       Toast.makeText(holder.name.getContext(),"Cancelled",Toast.LENGTH_SHORT).show();
                     }
                 });
                 builder.show();

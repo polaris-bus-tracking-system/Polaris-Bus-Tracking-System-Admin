@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="15dp">
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/ivDriver"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:src="@drawable/student_card_icon"
+           app:civ_border_color="#36454F"
+           app:civ_border_width="2dp" />
+
+       <TextView
+           android:id="@+id/tvDriverName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_toRightOf="@+id/ivStudent"
+           android:text="Driver Name"
+           android:textColor="#36454F"
+           android:textSize="25sp"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/tvDriverPhone"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/tvDriverName"
+           android:layout_marginLeft="10dp"
+           android:layout_toRightOf="@+id/ivStudent"
+           android:text="Phone Number"
+           android:textColor="#36454F"
+           android:textSize="25sp" />
+
+       <TextView
+           android:id="@+id/tvDriverEmail"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/tvDriverPhone"
+           android:layout_marginLeft="10dp"
+           android:layout_toRightOf="@+id/ivStudent"
+           android:text="Email Address"
+           android:textColor="#36454F"
+           android:textSize="25sp" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_below="@id/tvDriverEmail">
+
+           `<Button
+               android:id="@+id/btnDriverEdit"
+               android:layout_width="173dp"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="5dp"
+               android:background="@drawable/rounded_button"
+               android:drawableStart="@drawable/edit_icon"
+               android:drawablePadding="10dp"
+               android:paddingStart="45dp"
+               android:text="Edit"
+               android:textAlignment="textStart"
+               android:textAllCaps="false"
+               android:textColor="@color/white"
+               android:textSize="20sp" />
+
+           <Button
+               android:id="@+id/btnDriverDelete"
+               android:layout_width="173dp"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/rounded_button"
+               android:drawableStart="@drawable/ic_baseline_delete_24"
+               android:drawablePadding="10dp"
+               android:paddingStart="39dp"
+               android:text="Delete"
+               android:textAlignment="textStart"
+               android:textAllCaps="false"
+               android:textColor="@color/white"
+               android:textSize="20sp" />
+       </LinearLayout>
+
+
+   </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
