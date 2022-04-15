@@ -45,7 +45,44 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:90112526503:android:643e19c00d8ae113ad3382",
+        "mobilesdk_app_id": "1:90112526503:android:a1688ee32effc954ad3382",
+        "android_client_info": {
+          "package_name": "com.company.polarisdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90112526503-3031t79sn62a75ijggcjrpva4moev0bi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.polarisdriver",
+            "certificate_hash": "75b71f93b2b7b8fea6150571a6d05ed365cd24c1"
+          }
+        },
+        {
+          "client_id": "90112526503-29l0aq160vgpaerit828g10i6ll6s4fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1d3TJSRuEQFXg-G1BADfh1FhGTI-IZg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90112526503-29l0aq160vgpaerit828g10i6ll6s4fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90112526503:android:8b5964e41cb54db6ad3382",
         "android_client_info": {
           "package_name": "com.company.polarisstudent"
         }
