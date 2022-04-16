@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -25,7 +26,7 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:layout_marginLeft="10dp"
-           android:layout_toRightOf="@+id/ivStudent"
+           android:layout_toRightOf="@+id/ivDriver"
            android:text="Driver Name"
            android:textColor="#36454F"
            android:textSize="25sp"
@@ -37,7 +38,7 @@
            android:layout_height="wrap_content"
            android:layout_below="@+id/tvDriverName"
            android:layout_marginLeft="10dp"
-           android:layout_toRightOf="@+id/ivStudent"
+           android:layout_toRightOf="@+id/ivDriver"
            android:text="Phone Number"
            android:textColor="#36454F"
            android:textSize="25sp" />
@@ -48,41 +49,43 @@
            android:layout_height="wrap_content"
            android:layout_below="@+id/tvDriverPhone"
            android:layout_marginLeft="10dp"
-           android:layout_toRightOf="@+id/ivStudent"
+           android:layout_toRightOf="@+id/ivDriver"
            android:text="Email Address"
            android:textColor="#36454F"
            android:textSize="25sp" />
 
        <LinearLayout
-           android:layout_width="match_parent"
+           android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:orientation="horizontal"
            android:layout_below="@id/tvDriverEmail">
 
+           `
+
            `<Button
-               android:id="@+id/btnDriverEdit"
-               android:layout_width="173dp"
-               android:layout_height="wrap_content"
-               android:layout_marginRight="5dp"
-               android:background="@drawable/rounded_button"
-               android:drawableStart="@drawable/edit_icon"
-               android:drawablePadding="10dp"
-               android:paddingStart="45dp"
-               android:text="Edit"
-               android:textAlignment="textStart"
-               android:textAllCaps="false"
-               android:textColor="@color/white"
-               android:textSize="20sp" />
+           android:id="@+id/btnDriverEdit"
+           android:layout_width="155dp"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="5dp"
+           android:background="@drawable/rounded_button"
+           android:drawableStart="@drawable/edit_icon"
+           android:drawablePadding="10dp"
+           android:paddingStart="35dp"
+           android:text="Edit"
+           android:textAlignment="textStart"
+           android:textAllCaps="false"
+           android:textColor="@color/white"
+           android:textSize="20sp" />
 
            <Button
                android:id="@+id/btnDriverDelete"
-               android:layout_width="173dp"
+               android:layout_width="155dp"
                android:layout_height="wrap_content"
                android:layout_marginLeft="5dp"
                android:background="@drawable/rounded_button"
                android:drawableStart="@drawable/ic_baseline_delete_24"
                android:drawablePadding="10dp"
-               android:paddingStart="39dp"
+               android:paddingStart="32dp"
                android:text="Delete"
                android:textAlignment="textStart"
                android:textAllCaps="false"

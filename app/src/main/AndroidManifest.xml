@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.company.polaris_bustrackingsystem">
+    package="com.company.polaris_bustrackingsystem" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,7 +10,10 @@
         android:label="POLARIS"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PolarisBusTrackingSystem">
+        android:theme="@style/Theme.PolarisBusTrackingSystem" >
+        <activity
+            android:name=".ManageBus"
+            android:exported="false" />
         <activity
             android:name=".AddDriver"
             android:exported="false" />
@@ -35,7 +38,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

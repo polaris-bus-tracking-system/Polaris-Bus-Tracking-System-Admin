@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -12,44 +13,44 @@
        android:layout_height="wrap_content"
        android:padding="15dp">
 
-       <de.hdodenhof.circleimageview.CircleImageView
-           android:id="@+id/ivStudent"
+
+       <ImageView
+           android:id="@+id/ivBus"
            android:layout_width="80dp"
            android:layout_height="80dp"
-           android:src="@drawable/student_card_icon"
-           app:civ_border_color="#36454F"
-           app:civ_border_width="2dp" />
+           android:src="@drawable/bus"
+           android:layout_marginTop="8dp"/>
 
        <TextView
-           android:id="@+id/tvStudentName"
+           android:id="@+id/tvBusNo"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:layout_marginLeft="10dp"
-           android:layout_toRightOf="@+id/ivStudent"
-           android:text="Student Name"
+           android:layout_toRightOf="@+id/ivBus"
+           android:text="Bus No: "
            android:textColor="#36454F"
            android:textSize="25sp"
            android:textStyle="bold" />
 
        <TextView
+           android:id="@+id/tvBusRoute"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:id="@+id/tvStudentEnroll"
-           android:text="Enrollment No."
-           android:textSize="25sp"
+           android:layout_below="@+id/tvBusNo"
+           android:layout_marginLeft="10dp"
+           android:layout_toRightOf="@+id/ivBus"
+           android:text="Bus Route"
            android:textColor="#36454F"
-           android:layout_toRightOf="@+id/ivStudent"
-           android:layout_below="@+id/tvStudentName"
-           android:layout_marginLeft="10dp"/>
+           android:textSize="25sp" />
 
        <TextView
-           android:id="@+id/tvStudentBusStop"
+           android:id="@+id/tvBusStops"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:layout_below="@+id/tvStudentEnroll"
+           android:layout_below="@+id/tvBusRoute"
            android:layout_marginLeft="10dp"
-           android:layout_toRightOf="@+id/ivStudent"
-           android:text="Bus Stop"
+           android:layout_toRightOf="@+id/ivBus"
+           android:text="Bus Stops"
            android:textColor="#36454F"
            android:textSize="25sp" />
 
@@ -57,25 +58,27 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:orientation="horizontal"
-           android:layout_below="@id/tvStudentBusStop">
+           android:layout_below="@id/tvBusStops">
+
+           `
 
            `<Button
-               android:id="@+id/btnStudentEdit"
-               android:layout_width="155dp"
-               android:layout_height="wrap_content"
-               android:layout_marginRight="5dp"
-               android:background="@drawable/rounded_button"
-               android:drawableStart="@drawable/edit_icon"
-               android:drawablePadding="10dp"
-               android:paddingStart="35dp"
-               android:text="Edit"
-               android:textAlignment="textStart"
-               android:textAllCaps="false"
-               android:textColor="@color/white"
-               android:textSize="20sp" />
+           android:id="@+id/btnBusEdit"
+           android:layout_width="155dp"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="5dp"
+           android:background="@drawable/rounded_button"
+           android:drawableStart="@drawable/edit_icon"
+           android:drawablePadding="10dp"
+           android:paddingStart="35dp"
+           android:text="Edit"
+           android:textAlignment="textStart"
+           android:textAllCaps="false"
+           android:textColor="@color/white"
+           android:textSize="20sp" />
 
            <Button
-               android:id="@+id/btnStudentDelete"
+               android:id="@+id/btnBusDelete"
                android:layout_width="155dp"
                android:layout_height="wrap_content"
                android:layout_marginLeft="5dp"

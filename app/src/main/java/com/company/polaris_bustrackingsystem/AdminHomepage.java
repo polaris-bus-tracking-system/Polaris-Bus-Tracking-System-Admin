@@ -74,6 +74,10 @@ public class AdminHomepage extends AppCompatActivity {
             startActivity(new Intent(AdminHomepage.this,ManageDrivers.class));
         });
 
+        manageBuses.setOnClickListener(view -> {
+            startActivity(new Intent(AdminHomepage.this,ManageDrivers.class));
+        });
+
     }
 
     @Override

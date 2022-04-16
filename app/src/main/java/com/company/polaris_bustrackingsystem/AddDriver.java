@@ -17,6 +17,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class AddDriver extends AppCompatActivity {
@@ -87,7 +88,7 @@ public class AddDriver extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                DriverModel driverModel = new DriverModel(Dname,Dimgurl,Demail,Dphone);
+                                DriverModel driverModel = new DriverModel(Dname,Dimgurl,Demail,Dphone,FirebaseAuth.getInstance().getCurrentUser().getUid());
 
                                 FirebaseDatabase.getInstance().getReference("Driver")
                                         .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
@@ -95,14 +96,15 @@ public class AddDriver extends AppCompatActivity {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if (task.isSuccessful()) {
-                                            Toast.makeText(AddDriver.this, "New Student registered!", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(AddDriver.this, "New Driver registered!", Toast.LENGTH_SHORT).show();
                                         } else {
                                             Toast.makeText(AddDriver.this, "Registration failed! Try again!", Toast.LENGTH_SHORT).show();
                                         }
                                     }
                                 });
+
                             } else {
-                                Toast.makeText(AddDriver.this, "failed to Register Student !", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(AddDriver.this, "failed to Register Driver !", Toast.LENGTH_SHORT).show();
                             }
                         }
                     });

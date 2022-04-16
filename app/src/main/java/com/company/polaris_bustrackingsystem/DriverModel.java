@@ -1,7 +1,7 @@
 package com.company.polaris_bustrackingsystem;
 
 public class DriverModel {
-    String name,imgurl,email,phone;
+    String name,imgurl,email,phone,driverID;
 
 
     DriverModel()
@@ -9,11 +9,12 @@ public class DriverModel {
 
     }
 
-    public DriverModel(String name, String imgurl, String email, String phone) {
+    public DriverModel(String name, String imgurl, String email, String phone, String driverID) {
         this.name = name;
         this.imgurl = imgurl;
         this.email = email;
         this.phone = phone;
+        this.driverID = driverID;
     }
 
     public String getName() {
@@ -47,4 +48,10 @@ public class DriverModel {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public String getDriverID() {
+        return driverID;
+    }
+
+    public void setDriverID(String phone) { this.driverID = phone; }
 }

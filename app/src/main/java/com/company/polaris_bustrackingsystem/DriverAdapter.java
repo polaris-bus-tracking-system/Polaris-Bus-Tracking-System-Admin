@@ -57,7 +57,7 @@ public class DriverAdapter extends FirebaseRecyclerAdapter<DriverModel,DriverAda
             public void onClick(View view) {
                 final DialogPlus dialogPlus = DialogPlus.newDialog(holder.img.getContext())
                         .setContentHolder(new ViewHolder(R.layout.driver_update_popup))
-                        .setExpanded(true,1200)
+                        .setExpanded(true,1550)
                         .create();
 
                 //dialogPlus.show();
@@ -68,6 +68,7 @@ public class DriverAdapter extends FirebaseRecyclerAdapter<DriverModel,DriverAda
                 EditText phone = view1.findViewById(R.id.etDriverPhone);
                 EditText mail = view1.findViewById(R.id.etDriverEmail);
                 EditText url = view1.findViewById(R.id.etImageUrl);
+                EditText driverID = view1.findViewById(R.id.etDriverID);
 
                 Button btn = view1.findViewById(R.id.btnDriverUpdate);
 
@@ -75,6 +76,7 @@ public class DriverAdapter extends FirebaseRecyclerAdapter<DriverModel,DriverAda
                 phone.setText(model.getPhone());
                 mail.setText(model.getEmail());
                 url.setText(model.getImgurl());
+                driverID.setText(model.getDriverID());
 
                 dialogPlus.show();
 
@@ -86,6 +88,8 @@ public class DriverAdapter extends FirebaseRecyclerAdapter<DriverModel,DriverAda
                         map.put("email",mail.getText().toString());
                         map.put("phone",phone.getText().toString());
                         map.put("imgurl",url.getText().toString());
+
+                        
 
                         FirebaseDatabase.getInstance().getReference().child("Driver")
                                 .child(getRef(position).getKey()).updateChildren(map)
@@ -112,8 +116,8 @@ public class DriverAdapter extends FirebaseRecyclerAdapter<DriverModel,DriverAda
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder builder =new AlertDialog.Builder(holder.name.getContext());
-                builder.setTitle("Are you sure");
-                builder.setMessage("once deleted cant be undone");
+                builder.setTitle("Are you sure?");
+                builder.setMessage("Once deleted can't be undone");
                 builder.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {

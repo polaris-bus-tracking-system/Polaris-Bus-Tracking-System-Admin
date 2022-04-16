@@ -57,7 +57,7 @@ holder.busstop.setText(model.getBusstop());
             public void onClick(View v) {
                 final DialogPlus dialogPlus= DialogPlus.newDialog(holder.imgurl.getContext())
                         .setContentHolder(new ViewHolder(R.layout.student_update_popup))
-                        .setExpanded(true,1200)
+                        .setExpanded(true,1400)
                         .create();
 
                 View view=dialogPlus.getHolderView();
@@ -111,8 +111,8 @@ holder.busstop.setText(model.getBusstop());
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder builder =new AlertDialog.Builder(holder.name.getContext());
-                builder.setTitle("Are you sure");
-                builder.setMessage("once deleted cant be undone");
+                builder.setTitle("Are you sure?");
+                builder.setMessage("Once deleted can't be undone");
                 builder.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
