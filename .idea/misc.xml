@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/pbts-admin-15-april/app/src/main/res/layout/activity_add_bus.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/pbts-admin-15-april/app/src/main/res/layout/activity_add_driver.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/pbts-admin-15-april/app/src/main/res/layout/activity_admin_homepage.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/pbts-admin-15-april/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/pbts-admin-15-april/app/src/main/res/layout/activity_manage_bus.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/pbts-admin-15-april/app/src/main/res/layout/bus_card.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/activity_add_student.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/activity_manage_students.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/pbts-admin/app/src/main/res/layout/student_card.xml" value="0.18432971014492755" />

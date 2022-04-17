@@ -18,8 +18,8 @@
            android:id="@+id/ivBus"
            android:layout_width="80dp"
            android:layout_height="80dp"
-           android:src="@drawable/bus"
-           android:layout_marginTop="8dp"/>
+           android:layout_marginTop="8dp"
+           android:src="@drawable/bus" />
 
        <TextView
            android:id="@+id/tvBusNo"
