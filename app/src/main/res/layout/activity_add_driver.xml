@@ -33,7 +33,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/student_rounded"
         android:gravity="center"
-        android:id="@+id/etDriverName"/>
+        android:id="@+id/addDrivername"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -52,7 +52,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/student_rounded"
         android:gravity="center"
-        android:id="@+id/etDriverPhone"/>
+        android:id="@+id/addDriverphone"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -71,7 +71,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/student_rounded"
         android:gravity="center"
-        android:id="@+id/etDriverEmail"/>
+        android:id="@+id/addDriverId"/>
 
 
 
@@ -92,7 +92,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/student_rounded"
         android:gravity="center"
-        android:id="@+id/etImageUrl"/>
+        android:id="@+id/addDriverurl"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -105,7 +105,7 @@
         android:textColor="@color/charcoal"/>
 
     <EditText
-        android:id="@+id/etDriverPassword"
+        android:id="@+id/addDriverPassword"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_marginLeft="10dp"

@@ -16,8 +16,6 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
-import java.util.regex.Pattern;
-
 
 public class AddStudent extends AppCompatActivity {
     private FirebaseAuth mAuth;
@@ -33,7 +31,7 @@ Button btnStudentAdd, btnStudentBack;
         name=(EditText) findViewById(R.id.etStudentName);
         enroll=(EditText) findViewById(R.id.etEnroll);
         busstop=(EditText) findViewById(R.id.etStudentBusStop);
-        imgurl=(EditText) findViewById(R.id.etImageUrl);
+        imgurl=(EditText) findViewById(R.id.addBusStops);
         email=(EditText) findViewById(R.id.etStudentEmail);
         password=(EditText) findViewById(R.id.etStudentPassword);
 

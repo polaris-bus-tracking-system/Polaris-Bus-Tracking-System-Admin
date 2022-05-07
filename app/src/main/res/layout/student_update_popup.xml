@@ -106,7 +106,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/student_rounded"
         android:gravity="center"
-        android:id="@+id/etImageUrl"/>
+        android:id="@+id/addBusStops"/>
 
     <Button
         android:layout_width="match_parent"

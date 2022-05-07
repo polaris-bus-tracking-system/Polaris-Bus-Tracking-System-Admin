@@ -65,7 +65,7 @@ holder.busstop.setText(model.getBusstop());
                 EditText enroll=view.findViewById(R.id.etEnroll);
                 EditText email=view.findViewById(R.id.etStudentEmail);
                 EditText busstop=view.findViewById(R.id.etStudentBusStop);
-                EditText imgurl=view.findViewById(R.id.etImageUrl);
+                EditText imgurl=view.findViewById(R.id.addBusStops);
 
                 Button btnUpdate=view.findViewById(R.id.btnUpdate);
 

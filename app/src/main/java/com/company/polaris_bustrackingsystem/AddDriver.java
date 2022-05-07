@@ -2,8 +2,6 @@ package com.company.polaris_bustrackingsystem;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Patterns;
@@ -12,12 +10,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class AddDriver extends AppCompatActivity {
@@ -35,11 +31,11 @@ public class AddDriver extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-        name = (EditText) findViewById(R.id.etDriverName);
-        phone = (EditText) findViewById(R.id.etDriverPhone);
-        imgurl = (EditText) findViewById(R.id.etImageUrl);
-        email = (EditText) findViewById(R.id.etDriverEmail);
-        password = (EditText) findViewById(R.id.etDriverPassword);
+        name = (EditText) findViewById(R.id.addDrivername);
+        phone = (EditText) findViewById(R.id.addDriverphone);
+        imgurl = (EditText) findViewById(R.id.addDriverurl);
+        email = (EditText) findViewById(R.id.addDriverId);
+        password = (EditText) findViewById(R.id.addDriverPassword);
 
         btnDriverAdd = (Button) findViewById(R.id.btnDriverAdd);
         btnDriverBack = (Button) findViewById(R.id.btnDriverBack);

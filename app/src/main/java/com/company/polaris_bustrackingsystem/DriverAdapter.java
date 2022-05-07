@@ -64,10 +64,10 @@ public class DriverAdapter extends FirebaseRecyclerAdapter<DriverModel,DriverAda
 
                 View view1 = dialogPlus.getHolderView();
 
-                EditText name = view1.findViewById(R.id.etDriverName);
-                EditText phone = view1.findViewById(R.id.etDriverPhone);
-                EditText mail = view1.findViewById(R.id.etDriverEmail);
-                EditText url = view1.findViewById(R.id.etImageUrl);
+                EditText name = view1.findViewById(R.id.addDrivername);
+                EditText phone = view1.findViewById(R.id.addBusRoute);
+                EditText mail = view1.findViewById(R.id.addDriverId);
+                EditText url = view1.findViewById(R.id.addBusStops);
                 EditText driverID = view1.findViewById(R.id.etDriverID);
 
                 Button btn = view1.findViewById(R.id.btnDriverUpdate);

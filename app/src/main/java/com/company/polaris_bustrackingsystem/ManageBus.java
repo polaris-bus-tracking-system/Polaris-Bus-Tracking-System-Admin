@@ -39,14 +39,14 @@ public class ManageBus extends AppCompatActivity {
         busAdapter.startListening();
         recyclerView.setAdapter(busAdapter);
 
-      /*  floatingActionButton = (FloatingActionButton) findViewById(R.id.floatingActionButtonDriver);
+       floatingActionButton = (FloatingActionButton) findViewById(R.id.floatingActionButton);
 
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),AddDriver.class));
+                startActivity(new Intent(getApplicationContext(),AddBus.class));
             }
-        });*/
+        });
     }
 
     @Override
@@ -61,7 +61,7 @@ public class ManageBus extends AppCompatActivity {
         busAdapter.stopListening();
     }
 
-    /*@Override
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
         getMenuInflater().inflate(R.menu.search,menu);
@@ -93,5 +93,5 @@ public class ManageBus extends AppCompatActivity {
         busAdapter = new BusAdapter(options);
         busAdapter.startListening();
         recyclerView.setAdapter(busAdapter);
-    }*/
+    }
 }
