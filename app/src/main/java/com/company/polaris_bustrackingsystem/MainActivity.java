@@ -43,6 +43,12 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
+        FirebaseUser user = mAuth.getCurrentUser();
+
+        if(user != null){
+            startActivity(new Intent(MainActivity.this,AdminHomepage.class));
+        }
+
         buttonLogin.setOnClickListener(view -> {
             loginUser();
         });
