@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="6dp"
     android:elevation="6dp"
-    app:cardUseCompatPadding="true">
+    app:cardUseCompatPadding="true"
+    android:layout_margin="4dp">
 
    <RelativeLayout
        android:layout_width="match_parent"
@@ -53,11 +54,11 @@
            android:textColor="#36454F"
            android:textSize="25sp" />
 
-       <LinearLayout
+       <RelativeLayout
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:orientation="horizontal"
-           android:layout_below="@id/tvStudentBusStop">
+           android:layout_below="@id/tvStudentBusStop"
+           android:layout_marginTop="8dp">
 
            `<Button
                android:id="@+id/btnStudentEdit"
@@ -72,7 +73,8 @@
                android:textAlignment="textStart"
                android:textAllCaps="false"
                android:textColor="@color/white"
-               android:textSize="20sp" />
+               android:textSize="20sp"
+               android:layout_alignParentRight="true"/>
 
            <Button
                android:id="@+id/btnStudentDelete"
@@ -87,8 +89,9 @@
                android:textAlignment="textStart"
                android:textAllCaps="false"
                android:textColor="@color/white"
-               android:textSize="20sp" />
-       </LinearLayout>
+               android:textSize="20sp"
+               android:layout_alignParentLeft="true"/>
+       </RelativeLayout>
 
 
    </RelativeLayout>

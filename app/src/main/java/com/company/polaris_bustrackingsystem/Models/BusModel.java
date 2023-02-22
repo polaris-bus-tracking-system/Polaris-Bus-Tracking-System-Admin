@@ -1,4 +1,4 @@
-package com.company.polaris_bustrackingsystem;
+package com.company.polaris_bustrackingsystem.Models;
 
 public class BusModel {
     String busno,busroute,driverid,stops;

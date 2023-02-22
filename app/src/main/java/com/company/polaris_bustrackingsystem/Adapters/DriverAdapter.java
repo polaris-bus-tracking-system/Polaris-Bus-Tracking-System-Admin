@@ -1,4 +1,4 @@
-package com.company.polaris_bustrackingsystem;
+package com.company.polaris_bustrackingsystem.Adapters;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -14,6 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.company.polaris_bustrackingsystem.Models.DriverModel;
+import com.company.polaris_bustrackingsystem.R;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -57,7 +59,7 @@ public class DriverAdapter extends FirebaseRecyclerAdapter<DriverModel,DriverAda
             public void onClick(View view) {
                 final DialogPlus dialogPlus = DialogPlus.newDialog(holder.img.getContext())
                         .setContentHolder(new ViewHolder(R.layout.driver_update_popup))
-                        .setExpanded(true,1550)
+                        .setExpanded(true,1200)
                         .create();
 
                 //dialogPlus.show();

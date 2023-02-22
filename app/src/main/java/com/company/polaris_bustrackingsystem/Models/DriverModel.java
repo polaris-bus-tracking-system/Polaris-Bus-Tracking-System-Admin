@@ -1,4 +1,4 @@
-package com.company.polaris_bustrackingsystem;
+package com.company.polaris_bustrackingsystem.Models;
 
 public class DriverModel {
     String name,imgurl,email,phone,driverID;

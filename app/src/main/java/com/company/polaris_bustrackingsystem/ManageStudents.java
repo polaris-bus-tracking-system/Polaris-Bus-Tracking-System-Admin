@@ -11,6 +11,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.SearchView;
 
+import com.company.polaris_bustrackingsystem.Adapters.MainAdapter;
+import com.company.polaris_bustrackingsystem.Models.MainModel;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.database.FirebaseDatabase;

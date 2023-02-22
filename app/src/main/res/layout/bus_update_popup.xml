@@ -11,98 +11,112 @@
         android:background="@color/orange"
         android:textSize="25dp"
         android:gravity="center"
-        android:textColor="@color/white"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:text="Bus Number"
-        android:textColor="@color/charcoal"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/student_rounded"
-        android:gravity="center"
-        android:id="@+id/etBusNo"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:text="Bus Route"
-        android:textColor="@color/charcoal"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/student_rounded"
-        android:gravity="center"
-        android:id="@+id/etBusRoute"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:text="Bus Stops"
-        android:textColor="@color/charcoal"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/student_rounded"
-        android:gravity="center"
-        android:id="@+id/etBusStops"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:text="Driver's ID"
-        android:textColor="@color/charcoal"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/student_rounded"
-        android:gravity="center"
-        android:id="@+id/etBusDriverID"/>
-
-
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginTop="10dp"
-        android:textSize="21dp"
-        android:text="Update"
-        android:background="@drawable/rounded_button"
-        android:gravity="center"
-        android:textAllCaps="false"
         android:textColor="@color/white"
-        android:id="@+id/btnUpdate"/>
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="Bus Number"
+                android:textColor="@color/charcoal"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/student_rounded"
+                android:gravity="center"
+                android:id="@+id/etBusNo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="Bus Route"
+                android:textColor="@color/charcoal"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/student_rounded"
+                android:gravity="center"
+                android:id="@+id/etBusRoute"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="Bus Stops"
+                android:textColor="@color/charcoal"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/student_rounded"
+                android:gravity="center"
+                android:id="@+id/etBusStops"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="Driver's ID"
+                android:textColor="@color/charcoal"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/student_rounded"
+                android:gravity="center"
+                android:id="@+id/etBusDriverID"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:textSize="21dp"
+                android:text="Update"
+                android:background="@drawable/rounded_button"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:id="@+id/btnUpdate"
+                android:layout_marginBottom="35dp"/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

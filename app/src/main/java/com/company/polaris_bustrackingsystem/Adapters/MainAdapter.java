@@ -1,4 +1,4 @@
-package com.company.polaris_bustrackingsystem;
+package com.company.polaris_bustrackingsystem.Adapters;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -14,6 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.company.polaris_bustrackingsystem.Models.MainModel;
+import com.company.polaris_bustrackingsystem.R;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -57,7 +59,7 @@ holder.busstop.setText(model.getBusstop());
             public void onClick(View v) {
                 final DialogPlus dialogPlus= DialogPlus.newDialog(holder.imgurl.getContext())
                         .setContentHolder(new ViewHolder(R.layout.student_update_popup))
-                        .setExpanded(true,1400)
+                        .setExpanded(true,1200)
                         .create();
 
                 View view=dialogPlus.getHolderView();

@@ -1,4 +1,4 @@
-package com.company.polaris_bustrackingsystem;
+package com.company.polaris_bustrackingsystem.Adapters;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -14,7 +14,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.Glide;
+import com.company.polaris_bustrackingsystem.Models.BusModel;
+import com.company.polaris_bustrackingsystem.R;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -50,7 +51,7 @@ public class BusAdapter extends FirebaseRecyclerAdapter<BusModel, BusAdapter.myV
         public void onClick(View view) {
             final DialogPlus dialogPlus = DialogPlus.newDialog(holder.img.getContext())
                     .setContentHolder(new ViewHolder(R.layout.bus_update_popup))
-                    .setExpanded(true,1550)
+                    .setExpanded(true,1200)
                     .create();
 
             //dialogPlus.show();
